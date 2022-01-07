@@ -1,0 +1,101 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Braintree/Card (4.33.0):
+    - Braintree/Core
+  - Braintree/Core (4.33.0)
+  - Braintree/PaymentFlow (4.33.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.33.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.33.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.33.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.33.0)
+  - Braintree/UnionPay (4.33.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (8.1.0):
+    - BraintreeDropIn/DropIn (= 8.1.0)
+  - BraintreeDropIn/DropIn (8.1.0):
+    - Braintree/Card (~> 4.32)
+    - Braintree/Core (~> 4.32)
+    - Braintree/PaymentFlow (~> 4.32)
+    - Braintree/PayPal (~> 4.32)
+    - Braintree/UnionPay (~> 4.32)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (8.1.0)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GoogleMapsDirections (1.1.4):
+    - Alamofire (~> 4)
+    - ObjectMapper (~> 3)
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - MBProgressHUD (1.1.0)
+  - ObjectMapper (3.5.3)
+  - Presentr (1.9)
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - Stripe (19.1.0)
+
+DEPENDENCIES:
+  - BraintreeDropIn
+  - GoogleMaps
+  - GoogleMapsDirections
+  - GooglePlaces
+  - MBProgressHUD
+  - Presentr
+  - RealmSwift (~> 3.20.0)
+  - SDWebImage
+  - Stripe
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Braintree
+    - BraintreeDropIn
+    - GoogleMaps
+    - GoogleMapsDirections
+    - GooglePlaces
+    - MBProgressHUD
+    - ObjectMapper
+    - Presentr
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - Stripe
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Braintree: 586e4d274398fabe9d70ab790eefca41660b8a17
+  BraintreeDropIn: fc3e96a8a2b5416e5e3a3beba119f0089713bc1e
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GoogleMapsDirections: 4534565f7df3e57cb3e77f68d44d6383bb92194a
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  Stripe: 82a3aab0b1a66866eef581139a00adadcb2e6dc4
+
+PODFILE CHECKSUM: c764e669fa079c1990e04884dcd4ab6a4c971b89
+
+COCOAPODS: 1.8.4

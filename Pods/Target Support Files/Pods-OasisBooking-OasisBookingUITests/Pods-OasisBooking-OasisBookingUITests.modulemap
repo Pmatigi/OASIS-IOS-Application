@@ -1,0 +1,6 @@
+framework module Pods_OasisBooking_OasisBookingUITests {
+  umbrella header "Pods-OasisBooking-OasisBookingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
